@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -127,7 +126,7 @@ div.explore{
 	position:absolute;
 	top: 585px;
 	left: 400px;
-	width: 604px;
+	width: 324px;
 	height: 60px;
 	color: #6d1762;
     font-family: Comic Sans MS;
@@ -140,8 +139,8 @@ div.explore{
 div.exploreright {
 	position:absolute;
 	top: 585px;
-	left: 954px;
-	width: 30px;
+	left: 724px;
+	width: 260px;
 	height: 60px;
 	background-color: white;
 }
@@ -190,7 +189,7 @@ div.c2left{
 	top: 968px;
 	left: 0px;
 	width: 90px;
-	height: 257px;
+	height: 256px;
 	background-color: white;
 }
 div.c2mid{
@@ -198,7 +197,7 @@ div.c2mid{
 	top: 968px;
 	left: 90px;
 	width: 432px;
-	height: 257px;
+	height: 256px;
 	background-color: white;
 }
 div.c2right{
@@ -206,19 +205,19 @@ div.c2right{
 	top: 968px;
 	left: 522px;
 	width: 432px;
-	height: 257px;
+	height: 256px;
 }
 div.c2right2{
 	position:absolute;
 	top: 968px;
 	left: 954px;
 	width: 30px;
-	height: 257px;
+	height: 256px;
 	background-color: white;
 }
 div.whitespace3 {
 	position:absolute;
-	top: 1225px;
+	top: 1224px;
 	left: 0px;
 	width: 100%;
 	height: 35px;
@@ -227,7 +226,7 @@ div.whitespace3 {
 }
 div.c3left{
 	position:absolute;
-	top: 1260px;
+	top: 1259px;
 	left: 0px;
 	width: 90px;
 	height: 288px;
@@ -235,7 +234,7 @@ div.c3left{
 }
 div.c3mid{
 	position:absolute;
-	top: 1260px;
+	top: 1259px;
 	left: 90px;
 	width: 432px;
 	height: 288px;
@@ -243,7 +242,7 @@ div.c3mid{
 }
 div.c3right{
 	position:absolute;
-	top: 1260px;
+	top: 1259px;
 	left: 522px;
 	width: 432px;
 	height: 288px;
@@ -251,7 +250,7 @@ div.c3right{
 }
 div.c3right2{
 	position:absolute;
-	top: 1260px;
+	top: 1259px;
 	left: 954px;
 	width: 30px;
 	height: 288px;
@@ -259,7 +258,7 @@ div.c3right2{
 }
 div.whitespace4 {
 	position:absolute;
-	top: 1548px;
+	top: 1547px;
 	left: 0px;
 	width: 100%;
 	height: 35px;
@@ -268,33 +267,33 @@ div.whitespace4 {
 }
 div.c4left{
 	position:absolute;
-	top: 1583px;
+	top: 1582px;
 	left: 0px;
 	width: 90px;
-	height: 307px;
+	height: 306px;
 	background-color: white;
 }
 div.c4mid{
 	position:absolute;
-	top: 1583px;
+	top: 1582px;
 	left: 90px;
 	width: 432px;
-	height: 307px;
+	height: 306px;
 	background-color: white;
 }
 div.c4right{
 	position:absolute;
-	top: 1583px;
+	top: 1582px;
 	left: 522px;
 	width: 432px;
-	height: 307px;
+	height: 306px;
 }
 div.c4right2{
 	position:absolute;
-	top: 1583px;
+	top: 1582px;
 	left: 954px;
 	width: 30px;
-	height: 307px;
+	height: 306px;
 	background-color: white;
 }
 body {
@@ -306,12 +305,27 @@ body {
   background-position:65px 50px;
   overflow-x: hidden;
 }
-img {
-	max-width: 100%;
-	max-height: 100%;
+.c1 {
+	width: 422px;
+	height: 278px;
+	border-color: #ffe7e5;
+	border-style: solid;
+	border-width: 5px;
 }
-p.cuisine{
+.c2 {
+	width: 422px;
+	height: 246px;
+	border-color: #b0d8e2;
+	border-style: solid;
+	border-width: 5px;
+}
+.cuisine{
 	color: 	blue;
+	font-weight: bold;
+}
+.explore p{
+	margin: auto;
+	border-bottom: double;
 }
 
 </style>
@@ -334,7 +348,7 @@ p.cuisine{
 		<div class="viewtop"></div>
 		<div>
 			<div class="viewmiddle"></div>
-			<div class="viewenjoy">Enjoy the Scenic View!!</div>
+			<div class="viewenjoy"><p>Enjoy the Scenic View!!</p></div>
 		</div>
 		<div class="viewbutton"></div>
 	</div>
@@ -342,17 +356,17 @@ p.cuisine{
 </div>
 <div>
 	<div class="exploreleft"></div>
-	<div class="explore">Explore Our Delicious Cuisines</div>
+	<div class="explore"><p>Explore Our Delicious Cuisines</p></div>
 	<div class="exploreright"></div>
 </div>
 <div>
 	<div class="c1left"><a name = "Italian"></a></div>
-	<div class="c1mid"><img src="./nKRIIiiryK/ic.jpg" alt="Italian"></div>
+	<div class="c1mid"><img src="./nKRIIiiryK/ic.jpg" alt="Italian" class="c1"></div>
 	<div class="c1right">
 		<br><br><br><br>
-		<p class="cuisine">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Italy's finest:</p>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cuisine">Italy's finest:<br></span>
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From our Lasagna to our Protein Penne, we<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;have delicious options for every taste!
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;have delicious options for every taste!</p>
 	</div>
 	<div class="c1right2"></div>
 </div>
@@ -365,13 +379,13 @@ p.cuisine{
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our dishes are blended with masterful<br>
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;savory spices
 	</div>
-	<div class="c2right"><img src="./nKRIIiiryK/inc.jpg" alt="Indian"></div>
+	<div class="c2right"><img src="./nKRIIiiryK/inc.jpg" alt="Indian" class="c2"></div>
 	<div class="c2right2"></div>
 </div>
 <div class="whitespace3"></div>
 <div>
 	<div class="c3left"><a name = "Japanese"></a></div>
-	<div class="c3mid"><img src="./nKRIIiiryK/jc.jpg" alt="Japanese"></div>
+	<div class="c3mid"><img src="./nKRIIiiryK/jc.jpg" alt="Japanese" class="c1"></div>
 	<div class="c3right">
 		<br><br><br><br><br>
 		<p class="cuisine">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Japanese Cuisine:</p>
@@ -388,7 +402,7 @@ p.cuisine{
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From Italian Tiramisu to Indian Gulab<br>
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jamun
 	</div>
-	<div class="c4right"><img src="./nKRIIiiryK/d.jpg" alt="Desserts"></div>
+	<div class="c4right"><img src="./nKRIIiiryK/d.jpg" alt="Desserts" class="c2"></div>
 	<div class="c4right2"></div>
 </div>
 </body>
