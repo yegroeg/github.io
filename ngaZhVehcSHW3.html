@@ -1,8 +1,389 @@
+
 <!DOCTYPE html>
 <html>
+<head>
+<meta name="keywords" content="HTML, CSS">
+<meta name="description" content="Trojan Cafe Menu">
+<meta name="author" content="3908375934 Derrick Hsu">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+div.header {
+    color: #0a0271;
+    font-family: Baskerville,Bodoni MT,Bell MT,New Gothic MT;
+    font-size: 40px;
+	font-weight: bold;
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 80px;
+	vertical-align: middle;
+	white-space: nowrap;
+	background-color: white;
+	padding-left: 335px;
+	padding-top: 20px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #fbead6;
+  font-family: Arial;
+  position:absolute;
+  top: 80px;
+  left: 0px;
+  min-width: 100%;    
+  height: 45px;
+}
+
+.navbar a {
+  float: left;
+  color: blue;
+  text-align: center;
+  vertical-align: middle;
+  padding: 14px 6px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.navbar a:first-child {
+  padding-left: 95px;
+}
+
+.navbar a:hover {
+  color: purple;
+}
+
+.navbar a.active {
+  color: purple;
+}
+
+div.whitespace {
+	position:absolute;
+	top: 125px;
+	left: 0px;
+	width: 100%;
+	height: 35px;
+	background-color: white;
+	padding-left: 90px;
+}
+div.viewleft {
+	position:absolute;
+	top: 160px;
+	left: 0px;
+	width: 90px;
+	height: 425px;
+	background-color: white;
+}
+div.viewtop {
+	position:absolute;
+	top: 160px;
+	left: 90px;
+	width: 864px;
+	height: 126px;
+}
+div.viewmiddle {
+	position:absolute;
+	top: 286px;
+	left: 90px;
+	width: 280px;
+	height: 274px;
+}
+div.viewenjoy {
+	position:absolute;
+	top: 286px;
+	left: 370px;
+	width: 584px;
+	height: 274px;
+	color: #f6f9de;
+    font-family: Abril Fatface;
+    font-size: 45px;
+	font-weight: bold;
+	white-space: nowrap;
+}
+div.viewbutton {
+	position:absolute;
+	top: 560px;
+	left: 90px;
+	width: 864px;
+	height: 25px;
+	background-color: white;
+}
+div.viewright {
+	position:absolute;
+	top: 160px;
+	left: 954px;
+	width: 30px;
+	height: 425px;
+	background-color: white;
+}
+div.exploreleft{
+	position:absolute;
+	top: 585px;
+	left: 0px;
+	width: 400px;
+	height: 60px;
+	background-color: white;
+}
+div.explore{
+	position:absolute;
+	top: 585px;
+	left: 400px;
+	width: 604px;
+	height: 60px;
+	color: #6d1762;
+    font-family: Comic Sans MS;
+    font-size: 22px;
+	font-weight: bold;
+	white-space: nowrap;
+	background-color: white;
+	text-decoration-style: double;
+}
+div.exploreright {
+	position:absolute;
+	top: 585px;
+	left: 954px;
+	width: 30px;
+	height: 60px;
+	background-color: white;
+}
+div.c1left{
+	position:absolute;
+	top: 645px;
+	left: 0px;
+	width: 90px;
+	height: 288px;
+	background-color: white;
+}
+div.c1mid{
+	position:absolute;
+	top: 645px;
+	left: 90px;
+	width: 432px;
+	height: 288px;
+}
+div.c1right{
+	position:absolute;
+	top: 645px;
+	left: 522px;
+	width: 432px;
+	height: 288px;
+	background-color: white;
+}
+div.c1right2{
+	position:absolute;
+	top: 645px;
+	left: 954px;
+	width: 30px;
+	height: 288px;
+	background-color: white;
+}
+div.whitespace2 {
+	position:absolute;
+	top: 933px;
+	left: 0px;
+	width: 100%;
+	height: 35px;
+	background-color: white;
+	padding-left: 90px;
+}
+div.c2left{
+	position:absolute;
+	top: 968px;
+	left: 0px;
+	width: 90px;
+	height: 257px;
+	background-color: white;
+}
+div.c2mid{
+	position:absolute;
+	top: 968px;
+	left: 90px;
+	width: 432px;
+	height: 257px;
+	background-color: white;
+}
+div.c2right{
+	position:absolute;
+	top: 968px;
+	left: 522px;
+	width: 432px;
+	height: 257px;
+}
+div.c2right2{
+	position:absolute;
+	top: 968px;
+	left: 954px;
+	width: 30px;
+	height: 257px;
+	background-color: white;
+}
+div.whitespace3 {
+	position:absolute;
+	top: 1225px;
+	left: 0px;
+	width: 100%;
+	height: 35px;
+	background-color: white;
+	padding-left: 90px;
+}
+div.c3left{
+	position:absolute;
+	top: 1260px;
+	left: 0px;
+	width: 90px;
+	height: 288px;
+	background-color: white;
+}
+div.c3mid{
+	position:absolute;
+	top: 1260px;
+	left: 90px;
+	width: 432px;
+	height: 288px;
+	
+}
+div.c3right{
+	position:absolute;
+	top: 1260px;
+	left: 522px;
+	width: 432px;
+	height: 288px;
+	background-color: white;
+}
+div.c3right2{
+	position:absolute;
+	top: 1260px;
+	left: 954px;
+	width: 30px;
+	height: 288px;
+	background-color: white;
+}
+div.whitespace4 {
+	position:absolute;
+	top: 1548px;
+	left: 0px;
+	width: 100%;
+	height: 35px;
+	background-color: white;
+	padding-left: 90px;
+}
+div.c4left{
+	position:absolute;
+	top: 1583px;
+	left: 0px;
+	width: 90px;
+	height: 307px;
+	background-color: white;
+}
+div.c4mid{
+	position:absolute;
+	top: 1583px;
+	left: 90px;
+	width: 432px;
+	height: 307px;
+	background-color: white;
+}
+div.c4right{
+	position:absolute;
+	top: 1583px;
+	left: 522px;
+	width: 432px;
+	height: 307px;
+}
+div.c4right2{
+	position:absolute;
+	top: 1583px;
+	left: 954px;
+	width: 30px;
+	height: 307px;
+	background-color: white;
+}
+body {
+  background-image: url("./nKRIIiiryK/view.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 919px, 515px;
+  height: 515px;
+  background-position:65px 50px;
+  overflow-x: hidden;
+}
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+</style>
+</head>
 <body>
-<h1>HW3</h1>
-<p>Welcome to HW3</p><BR>
-<a href ="oEP5gkKhDpIndex.html">Back to Main Page</a><BR>
+<div class="header">Trojan Café</div>
+<div class="navbar">
+  <a href="ngaZhVehcSHW3.html">Home</a>
+  <a href="#Italian">Italian</a>
+  <a href="#Indian">Indian</a>
+  <a href="#Japanese">Japanese</a>
+  <a href="#Desserts">Desserts</a>
+  <a href="6LKeZ1Txc9Welcome.html" target="_blank">About</a>
+  <a href="6LKeZ1Txc9Welcome.html" target="_blank">Contact</a>
+</div>
+<div class="whitespace"></div>
+<div>
+	<div class="viewleft"></div>
+	<div>
+		<div class="viewtop"></div>
+		<div>
+			<div class="viewmiddle"></div>
+			<div class="viewenjoy">Enjoy the Scenic View!!</div>
+		</div>
+		<div class="viewbutton"></div>
+	</div>
+	<div class="viewright"></div>
+</div>
+<div>
+	<div class="exploreleft"></div>
+	<div class="explore">Explore Our Delicious Cuisines</div>
+	<div class="exploreright"></div>
+</div>
+<div>
+	<div class="c1left"><a name = "Italian"></a></div>
+	<div class="c1mid"><img src="./nKRIIiiryK/ic.jpg" alt="Italian"></div>
+	<div class="c1right">
+		Italian's finest:<br>
+		From our Lasagna to our Protein Penne, we<br>
+		have delicious options for every taste!
+	</div>
+	<div class="c1right2"></div>
+</div>
+<div class="whitespace2"></div>
+<div>
+	<div class="c2left"><a name = "Indian"></a></div>
+	<div class="c2mid">
+		India's Flavors:<br>
+		Our dishes are blended with masterful<br>
+		savory spices
+	</div>
+	<div class="c2right"><img src="./nKRIIiiryK/inc.jpg" alt="Indian"></div>
+	<div class="c2right2"></div>
+</div>
+<div class="whitespace3"></div>
+<div>
+	<div class="c3left"><a name = "Japanese"></a></div>
+	<div class="c3mid"><img src="./nKRIIiiryK/jc.jpg" alt="Japanese"></div>
+	<div class="c3right">
+		Japanese Cuisine:<br>
+		Delicious dining options from Sake to Sushi
+	</div>
+	<div class="c3right2"></div>
+</div>
+<div class="whitespace4"></div>
+<div>
+	<div class="c4left"><a name = "Desserts"></a></div>
+	<div class="c4mid">
+		Desserts:<br>
+		From Italian Tiramisu to Indian Gulab<br>
+		Jamun
+	</div>
+	<div class="c4right"><img src="./nKRIIiiryK/d.jpg" alt="Desserts"></div>
+	<div class="c4right2"></div>
+</div>
 </body>
 </html>
+
